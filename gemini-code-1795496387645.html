@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>สั่งซื้อสินค้า — RukMint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">RukMint</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้าทั้งหมด</a></li>
+          <li><a href="order.html" class="active">สั่งซื้อสินค้า</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Order Form Section -->
+  <main class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-subtitle">Place Your Order</span>
+        <h1>สั่งซื้อยาสีฟัน RukMint</h1>
+        <p>กรุณาตรวจสอบรายการสินค้าและกรอกข้อมูลสำหรับการจัดส่ง ทีมงานจะติดต่อกลับเพื่อยืนยันคำสั่งซื้อโดยเร็วที่สุด</p>
+      </div>
+
+      <div class="summary-box" style="max-width: 640px; margin: 0 auto;">
+        <form id="orderForm">
+          <div class="form-group">
+            <label for="customerName" class="form-label">ชื่อลูกค้า *</label>
+            <input type="text" id="customerName" class="form-control" placeholder="ระบุชื่อ-นามสกุลของคุณ" required>
+          </div>
+
+          <div class="form-group">
+            <label for="contact" class="form-label">เบอร์โทร / Line *</label>
+            <input type="text" id="contact" class="form-control" placeholder="ระบุเบอร์โทรศัพท์ หรือ Line ID" required>
+          </div>
+
+          <hr class="divider">
+
+          <div class="form-group">
+            <label for="items" class="form-label">รายการสินค้า *</label>
+            <input type="text" id="items" class="form-control" placeholder="ระบุชื่อสินค้าและขนาดที่ต้องการ" required>
+          </div>
+
+          <div class="form-group">
+            <label for="total" class="form-label">จำนวนเงินรวม (บาท) *</label>
+            <input type="text" id="total" class="form-control" placeholder="0" required>
+          </div>
+
+          <div class="form-group">
+            <label for="note" class="form-label">หมายเหตุ / ที่อยู่จัดส่ง</label>
+            <textarea id="note" class="form-control" placeholder="ระบุที่อยู่จัดส่ง หรือรายละเอียดเพิ่มเติม (ถ้ามี)"></textarea>
+          </div>
+
+          <div style="margin-top: 32px; text-align: center;">
+            <button type="submit" class="btn btn-solid" style="width: 100%;">ยืนยันสั่งซื้อ</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo" style="display: inline-block; margin-bottom: 16px;">RukMint</a>
+          <p>เปลี่ยนทุกการแปรงฟันให้เป็นการตกหลุมรักตัวเอง ผ่านสัมผัสความเย็นที่ออกแบบมาเพื่อทุกอารมณ์ของคุณ</p>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 16px; font-size: 1.05rem;">เมนูหลัก</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px;">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="product.html">สินค้าทั้งหมด</a></li>
+            <li><a href="order.html">สั่งซื้อสินค้า</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 style="margin-bottom: 16px; font-size: 1.05rem;">คอลเลกชัน</h4>
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px;">
+            <li><a href="product.html?mood=fresh">Fresh — สดชื่น</a></li>
+            <li><a href="product.html?mood=sweet">Sweet — หวานละมุน</a></li>
+            <li><a href="product.html?mood=confident">Confident — มั่นใจ</a></li>
+            <li><a href="product.html?mood=romance">Romance — โรแมนติก</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 RukMint. All rights reserved.</span>
+        <span>Crafted for Every Mood</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

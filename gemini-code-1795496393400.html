@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>จัดการคำสั่งซื้อ (Admin) — RukMint</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .table-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      background-color: var(--bg-card);
+      border: 1px solid var(--border-light);
+    }
+
+    #ordersTable {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 0.92rem;
+    }
+
+    #ordersTable th {
+      background-color: var(--bg-secondary);
+      color: var(--text-primary);
+      font-weight: 500;
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-light);
+      white-space: nowrap;
+    }
+
+    #ordersTable td {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border-light);
+      color: var(--text-secondary);
+      vertical-align: top;
+    }
+
+    #ordersTable tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    #ordersTable tbody tr:hover {
+      background-color: var(--bg-primary);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="brand-logo">RukMint</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">หน้าแรก</a></li>
+          <li><a href="product.html">สินค้าทั้งหมด</a></li>
+          <li><a href="admin.html" class="active">ระบบจัดการคำสั่งซื้อ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Admin Orders Table Section -->
+  <main class="section">
+    <div class="container">
+      <div class="section-header" style="margin-bottom: 48px;">
+        <span class="section-subtitle">Store Management</span>
+        <h1>รายการคำสั่งซื้อทั้งหมด</h1>
+        <p>ตรวจสอบรายละเอียดคำสั่งซื้อล่าสุดจากลูกค้า</p>
+      </div>
+
+      <div class="table-wrapper">
+        <table id="ordersTable">
+          <thead>
+            <tr>
+              <th>วันเวลา</th>
+              <th>ชื่อลูกค้า</th>
+              <th>เบอร์โทร/Line</th>
+              <th>รายการสินค้า</th>
+              <th>จำนวนเงินรวม</th>
+              <th>หมายเหตุ</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <span>&copy; 2026 RukMint. Admin Dashboard.</span>
+        <span>Crafted for Every Mood</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

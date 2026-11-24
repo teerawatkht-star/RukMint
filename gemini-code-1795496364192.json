@@ -1,0 +1,82 @@
+[
+  {
+    "id": "fresh-30",
+    "name": "RukMint ยาสีฟัน Fresh เล็ก 30ml",
+    "mood": "fresh",
+    "type": "toothpaste",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/fresh.jpg",
+    "description": "ขนาดทดลองพกพาสะดวก ปลุกทุกประสาทสัมผัสให้ตื่นตัวด้วยความเย็นโปร่งเบาสบาย มอบความสะอาดหมดจดที่ทำให้รู้สึกโล่งและพร้อมเริ่มต้นวันใหม่"
+  },
+  {
+    "id": "fresh-100",
+    "name": "RukMint ยาสีฟัน Fresh ใหญ่ 100ml",
+    "mood": "fresh",
+    "type": "toothpaste",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/fresh.jpg",
+    "description": "ขนาดปกติสำหรับใช้เป็นประจำทุกวัน ปลุกทุกประสาทสัมผัสให้ตื่นตัวด้วยความเย็นโปร่งเบาสบาย มอบความสะอาดหมดจดและสดชื่นยาวนาน"
+  },
+  {
+    "id": "sweet-30",
+    "name": "RukMint ยาสีฟัน Sweet เล็ก 30ml",
+    "mood": "sweet",
+    "type": "toothpaste",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/sweet.jpg",
+    "description": "ขนาดทดลองพกพาสะดวก สัมผัสความหวานแผ่วเบาที่ผสานกับความเย็นอย่างอ่อนโยน เติมความรู้สึกอบอุ่นและสบายใจในทุกครั้งที่แปรง"
+  },
+  {
+    "id": "sweet-100",
+    "name": "RukMint ยาสีฟัน Sweet ใหญ่ 100ml",
+    "mood": "sweet",
+    "type": "toothpaste",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/sweet.jpg",
+    "description": "ขนาดปกติสำหรับใช้เป็นประจำทุกวัน สัมผัสความหวานแผ่วเบาที่ผสานกับความเย็นอย่างอ่อนโยน ให้ความรู้สึกน่ารัก อบอุ่น และละมุนกว่าที่เคย"
+  },
+  {
+    "id": "confident-30",
+    "name": "RukMint ยาสีฟัน Confident เล็ก 30ml",
+    "mood": "confident",
+    "type": "toothpaste",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/confident.jpg",
+    "description": "ขนาดทดลองพกพาสะดวก ความสะอาดล้ำลึกที่มาพร้อมความเย็นสุขุมนุ่มนวล เสริมบุคลิกให้ดูดีและน่าเชื่อถือ พร้อมเจอผู้คนในทุกสถานการณ์"
+  },
+  {
+    "id": "confident-100",
+    "name": "RukMint ยาสีฟัน Confident ใหญ่ 100ml",
+    "mood": "confident",
+    "type": "toothpaste",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/confident.jpg",
+    "description": "ขนาดปกติสำหรับใช้เป็นประจำทุกวัน ความสะอาดล้ำลึกที่มาพร้อมความเย็นสุขุมนุ่มนวล มอบความมั่นใจให้คุณยิ้มและพูดคุยได้อย่างเต็มที่"
+  },
+  {
+    "id": "romance-30",
+    "name": "RukMint ยาสีฟัน Romance เล็ก 30ml",
+    "mood": "romance",
+    "type": "toothpaste",
+    "size": "30ml",
+    "price": 89,
+    "image": "images/romance.jpg",
+    "description": "ขนาดทดลองพกพาสะดวก เสน่ห์ความหวานที่ลุ่มลึกผสานความรู้สึกอบอุ่นชวนหลงใหล ทิ้งสัมผัสความหอมเย็นที่ตราตรึงและน่าจดจำ"
+  },
+  {
+    "id": "romance-100",
+    "name": "RukMint ยาสีฟัน Romance ใหญ่ 100ml",
+    "mood": "romance",
+    "type": "toothpaste",
+    "size": "100ml",
+    "price": 199,
+    "image": "images/romance.jpg",
+    "description": "ขนาดปกติสำหรับใช้เป็นประจำทุกวัน เสน่ห์ความหวานที่ลุ่มลึกผสานความรู้สึกอบอุ่นชวนหลงใหล เติมเสน่ห์น่าจดจำในทุกช่วงเวลาที่ใกล้ชิด"
+  }
+]
